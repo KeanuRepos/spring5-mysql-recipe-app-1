@@ -9,7 +9,7 @@ public class Notes {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToOne()
+    @OneToOne
     private Recipe recipe;
 
     @Lob //Lob(large object) annotation allows us to have over 255 characters in the note field
