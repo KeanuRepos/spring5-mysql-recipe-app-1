@@ -1,1 +1,1 @@
-# Spring Boot Recipe App
+# Spring Boot Recipe App with MySQL Database
